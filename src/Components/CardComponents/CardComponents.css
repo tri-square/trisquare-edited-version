@@ -1,0 +1,74 @@
+.row {
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+
+.cardBtn-PriceDiv {
+  display: flex;
+  max-width: 80%;
+  margin-left: auto;
+}
+
+.cardList {
+  padding: 5%;
+}
+.column {
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+ 
+   border-radius: 7px;
+
+}
+
+.salaryDiv {
+  background-color: "#DEDDDD";
+  width: "200px";
+  height: "fitContent";
+  justify-content: "center";
+}
+.applyBtn {
+  width: fit-content;
+  margin-left: auto;
+  
+}
+
+
+.requirementsContainer {
+  overflow: hidden;
+  max-width: 60%;
+  display: flex;
+  padding-left: 10px;
+  justify-content: space-between;
+  gap: 5px;
+}
+.requirementsCard {
+  background: #000;
+  max-width: fit-content;
+  background-color: #8711c1ff;
+  color: aliceblue;
+  border-radius: 5rem;
+  text-align: center;
+}
+.descriptionTxt{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family:  'Open Sans';
+  max-width: 90%;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardBtn-PriceDiv {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .cardList {
+    padding: 2%;
+  }
+ .descriptionTxt{
+  max-width: 95%;
+ }
+}
+
