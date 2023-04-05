@@ -45,6 +45,14 @@ function ProductsPage() {
 
              < br />
 
+               <a href="https://docs.google.com/spreadsheets/d/1b54zAnXHdcKJEfGRR1XebcbOn1KQxrl7S4r9BoLYDPg/edit?usp=sharing">
+                <button className="addBtn btn btn-primary">03-04-2023</button>
+              </a>
+
+           
+
+             < br />
+
           
 
             
@@ -75,7 +83,11 @@ function ProductsPage() {
               <br />
 
           
-          
+             <a href="https://docs.google.com/spreadsheets/d/1b54zAnXHdcKJEfGRR1XebcbOn1KQxrl7S4r9BoLYDPg/edit?usp=sharing">
+                <button className="addBtn btn btn-primary">03-04-2023</button>
+              </a>
+
+              <br />
 
        
             </div>
