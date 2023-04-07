@@ -44,6 +44,11 @@ function LandingPage() {
               </h2>
               
             </div>
+
+               <div className="whoRight">
+         {/* <img style={{maxWidth:'100%'}} src="https://imgofficial.files.wordpress.com/2015/06/ho-we-ar.jpg" alt="" /> */}
+              
+            </div>
           </div>
         </section>
         

@@ -136,17 +136,13 @@ ul {
 
 .whoSec {
 
-  height: 90vh;
+  height: 100vh;
 }
 .whoContainer {
   display: flex;
   padding: 3%;
   padding-top: 150px;
-  background-image: url("https://imgofficial.files.wordpress.com/2015/06/ho-we-ar.jpg");
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .whoLeft {
@@ -172,6 +168,11 @@ ul {
   font-size: 35px;
   padding: 5%;
   color: white;
+  /* background-image: url("https://imgofficial.files.wordpress.com/2015/06/ho-we-ar.jpg");
+ background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .services {
