@@ -3,6 +3,7 @@ import React, { useState} from "react";
 import "./css/LandingPage.css";
 import NavPrimary from "../../Components/NavBarPrimary/NavPrimary";
 import Footer from "../../Components/Footer/Footer";
+import { Row,Image } from "react-bootstrap";
 
 
 function LandingPage() {
@@ -36,22 +37,28 @@ function LandingPage() {
         </div>
 
         <section className="whoSec">
-          <div className="whoContainer">
-       
+          <div className="whoContainer ">
 
-               <div className="whoRight">
-         {/* <img style={{maxWidth:'100%'}} src="https://imgofficial.files.wordpress.com/2015/06/ho-we-ar.jpg" alt="" /> */}
+
+     
+
+               <div  className="whoRight">
+       
+         <Image style={{maxWidth:'90%'}} src={process.env.PUBLIC_URL + '/ho-we-ar.jpg'} fluid />
+
               
             </div>
 
 
-            <div className="whoLeft">
+            <div className="whoLeft ">
             <h2>
                 We are a remote engineering service firm providing services to
                 employers and opportunities to employees
               </h2>
               
             </div>
+
+        
           </div>
         </section>
         
